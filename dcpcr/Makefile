@@ -2,8 +2,8 @@ IMAGE_NAME=dcpcr
 TAG=latest
 CODE= $(shell pwd)
 
-USER_ID= $(shell id -u)
-GROUP_ID= $(shell id -g)
+USER_ID=1000# $(shell id -u)
+GROUP_ID=1000# $(shell id -g)
 # CONFIG:=$(shell realpath ${CONFIG})
 DATA=path/to/your/data/apollo-compressed
 AGGREGATED=path/to/your/data/apollo-aggregated
